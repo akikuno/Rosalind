@@ -1,11 +1,10 @@
-
 def read_fasta(file: str):
     """
     Args
     file: path of fasta file
     """
     with open(file) as f:
-    fa = f.read().splitlines()
+        fa = f.read().splitlines()
 
     prev = True
     header = []
