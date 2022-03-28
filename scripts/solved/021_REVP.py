@@ -17,7 +17,3 @@ for i in range(len(seq) + 1):
 
 for a in ans:
     print(*a)
-
-
-seq[: len(seq)]
-seq[len(seq)]
