@@ -34,4 +34,7 @@ for problem in problems:
         f.write(sample_dataset)
     with open(f"sample/output/{problem}.txt", "w") as f:
         f.write(sample_output)
-
+    with open(f"case/dataset/{problem}.txt", "w") as f:
+        f.write("")
+    with open(f"case/output/{problem}.txt", "w") as f:
+        f.write("")
