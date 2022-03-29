@@ -1,4 +1,4 @@
-# https://rosalind.info/problems/iev/
+# https://rosalind.info/problems/dna/
 
 
 def fmtfa(fasta: list):
@@ -19,10 +19,10 @@ def fmtfa(fasta: list):
 
 # INPUT -------------------------------------------
 
-file_in = "sample/dataset/iev.txt"
-file_out = "sample/output/iev.txt"
+file_in = "sample/dataset/dna.txt"
+file_out = "sample/output/dna.txt"
 
-# file_in = "case/dataset/iev.txt"
+file_in = "case/dataset/dna.txt"
 
 with open(file_in) as f:
     data = f.read().splitlines()
@@ -33,10 +33,16 @@ with open(file_out) as f:
 
 # MAIN -------------------------------------------
 
+d = {"A": 0, "C": 0, "G": 0, "T": 0}
+
+for x in data[0]:
+    d[x] += 1
+
+print(*d.values())
 
 # OUTPUT -------------------------------------------
 
-with open("case/output/iev.txt", "w") as f:
-    f.write()
+with open("case/output/dna.txt", "w") as f:
+    f.write(" ".join(map(str, d.values())))
 
 # END

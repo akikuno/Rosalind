@@ -1,4 +1,4 @@
-# https://rosalind.info/problems/iev/
+# https://rosalind.info/problems/lgis/
 
 
 def fmtfa(fasta: list):
@@ -19,10 +19,10 @@ def fmtfa(fasta: list):
 
 # INPUT -------------------------------------------
 
-file_in = "sample/dataset/iev.txt"
-file_out = "sample/output/iev.txt"
+file_in = "sample/dataset/lgis.txt"
+file_out = "sample/output/lgis.txt"
 
-# file_in = "case/dataset/iev.txt"
+# file_in = "case/dataset/lgis.txt"
 
 with open(file_in) as f:
     data = f.read().splitlines()
@@ -36,7 +36,7 @@ with open(file_out) as f:
 
 # OUTPUT -------------------------------------------
 
-with open("case/output/iev.txt", "w") as f:
+with open("case/output/lgis.txt", "w") as f:
     f.write()
 
 # END

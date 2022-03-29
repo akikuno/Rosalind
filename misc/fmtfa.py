@@ -1,14 +1,8 @@
-def read_fasta(file: str):
-    """
-    Args
-    file: path of fasta file
-    """
-    with open(file) as f:
-        fa = f.read().splitlines()
+def fmtfa(fasta: list):
     prev = True
     header = []
     seq = []
-    for f in fa:
+    for f in fasta:
         if ">" in f:
             header.append(f[1:])
             prev = True
@@ -18,4 +12,3 @@ def read_fasta(file: str):
         else:
             seq[-1] += f
     return header, seq
-

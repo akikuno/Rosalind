@@ -1,6 +1,7 @@
 #!/bin/bash
 
-problem="sseq"
+problem="dna"
+code . scripts/"$problem".py case/dataset/"$problem".txt case/output/"$problem".txt
 
 # usr_name=$(cmd.exe /c "echo %USERNAME%" | tr -d "\r")
 # mv /mnt/c/Users/"$usr_name"/Downloads/rosa*.txt data
