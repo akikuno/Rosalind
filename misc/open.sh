@@ -1,6 +1,6 @@
 #!/bin/bash
 
-problem="dna"
+problem="rstr"
 code . scripts/"$problem".py case/dataset/"$problem".txt case/output/"$problem".txt
 
 # usr_name=$(cmd.exe /c "echo %USERNAME%" | tr -d "\r")
