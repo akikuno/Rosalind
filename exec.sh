@@ -1,4 +1,4 @@
 #!/bin/bash
 
-problem="rstr"
+problem="eval"
 code . scripts/"$problem".py case/dataset/"$problem".txt case/output/"$problem".txt
