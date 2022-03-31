@@ -42,8 +42,7 @@ ans = ""
 
 # OUTPUT -------------------------------------------
 
-if ans:
-    with open("case/output/XXXXX.txt", "w") as f:
-        f.write(ans)
+with open("case/output/XXXXX.txt", "w") as f:
+    f.write(ans)
 
 # END
