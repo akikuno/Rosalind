@@ -22,21 +22,28 @@ def fmtfa(fasta: list):
 file_in = "sample/dataset/XXXXX.txt"
 file_out = "sample/output/XXXXX.txt"
 
-# file_in = "case/dataset/XXXXX.txt"
-
 with open(file_in) as f:
     data = f.read().splitlines()
 
 with open(file_out) as f:
     outcome = f.read().splitlines()
 
+file_in = "case/dataset/XXXXX.txt"
+
+with open(file_in) as f:
+    data_case = f.read().splitlines()
+
+if not data_case == []:
+    data = data_case
 
 # MAIN -------------------------------------------
 
+ans = ""
 
 # OUTPUT -------------------------------------------
 
-with open("case/output/XXXXX.txt", "w") as f:
-    f.write()
+if ans:
+    with open("case/output/XXXXX.txt", "w") as f:
+        f.write(ans)
 
 # END
