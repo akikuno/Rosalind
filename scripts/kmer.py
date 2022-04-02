@@ -22,21 +22,38 @@ def fmtfa(fasta: list):
 file_in = "sample/dataset/kmer.txt"
 file_out = "sample/output/kmer.txt"
 
-# file_in = "case/dataset/kmer.txt"
-
 with open(file_in) as f:
     data = f.read().splitlines()
 
 with open(file_out) as f:
     outcome = f.read().splitlines()
 
+file_in = "case/dataset/kmer.txt"
+
+with open(file_in) as f:
+    data_case = f.read().splitlines()
+
+if not data_case == []:
+    data = data_case
 
 # MAIN -------------------------------------------
 
+_, seq = fmtfa(data)
 
+seq = seq[0]
+
+from itertools import product
+
+kmer = {"".join(x): 0 for x in product(["A", "C", "G", "T"], repeat=4)}
+
+for i in range(len(seq) - 3):
+    kmer[seq[i : i + 4]] += 1
+
+ans = [str(v) for v in kmer.values()]
+ans = " ".join(ans)
 # OUTPUT -------------------------------------------
 
 with open("case/output/kmer.txt", "w") as f:
-    f.write()
+    f.write(ans)
 
 # END
