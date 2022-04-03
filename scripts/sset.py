@@ -22,21 +22,42 @@ def fmtfa(fasta: list):
 file_in = "sample/dataset/sset.txt"
 file_out = "sample/output/sset.txt"
 
-# file_in = "case/dataset/sset.txt"
-
 with open(file_in) as f:
     data = f.read().splitlines()
 
 with open(file_out) as f:
     outcome = f.read().splitlines()
 
+file_in = "case/dataset/sset.txt"
+
+with open(file_in) as f:
+    data_case = f.read().splitlines()
+
+if not data_case == []:
+    data = data_case
 
 # MAIN -------------------------------------------
 
+n = int(data[0])
 
+
+from math import factorial
+
+def C(n, r):
+    return factorial(n) // (factorial(n - r) * factorial(r))
+
+ans = 0
+
+for i in range(1, n+1):
+    ans += C(n, i)
+    ans %= 1_000_000
+
+ans += 1
+
+ans = str(ans)
 # OUTPUT -------------------------------------------
 
 with open("case/output/sset.txt", "w") as f:
-    f.write()
+    f.write(ans)
 
 # END
