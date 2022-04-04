@@ -16,6 +16,10 @@ def fmtfa(fasta: list):
             seq[-1] += f
     return header, seq
 
+def revcomp(seq: str):
+    conv = {"A": "T", "G": "C", "C": "G", "T": "A"}
+    return "".join([conv[s] for s in seq[::-1]])
+
 
 # INPUT -------------------------------------------
 
