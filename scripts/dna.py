@@ -1,22 +1,26 @@
+from pathlib import Path
+
 # https://rosalind.info/problems/dna/
 
+# SAMPLE INPUT -------------------------------------------
+
+sample_dataset = Path("sample/dataset/dna.txt").read_text().splitlines()
+sample_output = Path("sample/output/dna.txt").read_text().splitlines()
 
 # DATASET INPUT -------------------------------------------
 
-with open("case/dataset/dna.txt") as f:
-    dataset = f.read().splitlines()
+dataset = Path("case/dataset/dna.txt").read_text().splitlines()
 
 # MAIN -------------------------------------------
 
 from collections import Counter
 
-count = Counter(dataset[0])
+c = Counter(dataset[0])
 
-ans = f'{count["A"]} {count["C"]} {count["G"]} {count["T"]}'
+ans = " ".join([str(c[k]) for k in "ACGT"])
 
 # OUTPUT -------------------------------------------
 
-with open("case/output/dna.txt", "w") as f:
-    f.write(ans)
+Path("case/output/dna.txt").write_text(ans)
 
 # END
