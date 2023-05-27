@@ -23,22 +23,14 @@ def revcomp(seq: str):
 
 # INPUT -------------------------------------------
 
-file_in = "sample/dataset/XXXXX.txt"
-file_out = "sample/output/XXXXX.txt"
+with open("sample/dataset/XXXXX.txt") as f:
+    sample_dataset = f.read().splitlines()
 
-with open(file_in) as f:
+with open("sample/output/XXXXX.txt") as f:
+    sanple_output = f.read().splitlines()
+
+with open("case/dataset/XXXXX.txt") as f:
     data = f.read().splitlines()
-
-with open(file_out) as f:
-    outcome = f.read().splitlines()
-
-file_in = "case/dataset/XXXXX.txt"
-
-with open(file_in) as f:
-    data_case = f.read().splitlines()
-
-if not data_case == []:
-    data = data_case
 
 # MAIN -------------------------------------------
 
