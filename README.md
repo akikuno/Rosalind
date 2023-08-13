@@ -1,6 +1,10 @@
-# Rosalind solutions by Python 3
+# Rosalind Solutions by Python 3
 
-## Problems
+## Environment
+
+- Python >= 3.7
+
+## Problem list
 
 https://rosalind.info/problems/list-view/
 
