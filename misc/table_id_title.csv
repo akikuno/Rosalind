@@ -1,0 +1,105 @@
+000,dna,Counting DNA Nucleotides
+001,rna,Transcribing DNA into RNA
+002,revc,Complementing a Strand of DNA
+003,fib,Rabbits and Recurrence Relations
+004,gc,Computing GC Content
+005,hamm,Counting Point Mutations
+006,iprb,Mendel&#39;s First Law
+007,prot,Translating RNA into Protein
+008,subs,Finding a Motif in DNA
+009,cons,Consensus and Profile
+010,fibd,Mortal Fibonacci Rabbits
+011,grph,Overlap Graphs
+012,iev,Calculating Expected Offspring
+013,lcsm,Finding a Shared Motif
+014,lia,Independent Alleles
+015,mprt,Finding a Protein Motif
+016,mrna,Inferring mRNA from Protein
+017,orf,Open Reading Frames
+018,perm,Enumerating Gene Orders
+019,prtm,Calculating Protein Mass
+020,revp,Locating Restriction Sites
+021,splc,RNA Splicing
+022,lexf,Enumerating k-mers Lexicographically
+023,lgis,Longest Increasing Subsequence
+024,long,Genome Assembly as Shortest Superstring
+025,pmch,Perfect Matchings and RNA Secondary Structures
+026,pper,Partial Permutations
+027,prob,Introduction to Random Strings
+028,sign,Enumerating Oriented Gene Orderings
+029,sseq,Finding a Spliced Motif
+030,tran,Transitions and Transversions
+031,tree,Completing a Tree
+032,cat,Catalan Numbers and RNA Secondary Structures
+033,corr,Error Correction in Reads
+034,inod,Counting Phylogenetic Ancestors
+035,kmer,k-Mer Composition
+036,kmp,Speeding Up Motif Finding
+037,lcsq,Finding a Shared Spliced Motif
+038,lexv,Ordering Strings of Varying Length Lexicographically
+039,mmch,Maximum Matchings and RNA Secondary Structures
+040,pdst,Creating a Distance Matrix
+041,rear,Reversal Distance
+042,rstr,Matching Random Motifs
+043,sset,Counting Subsets
+044,aspc,Introduction to Alternative Splicing
+045,edit,Edit Distance
+046,eval,Expected Number of Restriction Sites
+047,motz,Motzkin Numbers and RNA Secondary Structures
+048,nwck,Distances in Trees
+049,scsp,Interleaving Two Motifs
+050,seto,Introduction to Set Operations
+051,sort,Sorting by Reversals
+052,spec,Inferring Protein from Spectrum
+053,trie,Introduction to Pattern Matching
+054,conv,Comparing Spectra with the Spectral Convolution
+055,ctbl,Creating a Character Table
+056,dbru,Constructing a De Bruijn Graph
+057,edta,Edit Distance Alignment
+058,full,Inferring Peptide from Full Spectrum
+059,indc,Independent Segregation of Chromosomes
+060,itwv,Finding Disjoint Motifs in a Gene
+061,lrep,Finding the Longest Multiple Repeat
+062,nkew,Newick Format with Edge Weights
+063,rnas,Wobble Bonding and RNA Secondary Structures
+064,afrq,Counting Disease Carriers
+065,cstr,Creating a Character Table from Genetic Strings
+066,ctea,Counting Optimal Alignments
+067,cunr,Counting Unrooted Binary Trees
+068,glob,Global Alignment with Scoring Matrix
+069,pcov,Genome Assembly with Perfect Coverage
+070,prsm,Matching a Spectrum to a Protein
+071,qrt,Quartets
+072,sgra,Using the Spectrum Graph to Infer Peptides
+073,suff,Encoding Suffix Trees
+074,chbp,Character-Based Phylogeny
+075,cntq,Counting Quartets
+076,eubt,Enumerating Unrooted Binary Trees
+077,gasm,Genome Assembly Using Reads
+078,gcon,Global Alignment with Constant Gap Penalty
+079,ling,Linguistic Complexity of a Genome
+080,loca,Local Alignment with Scoring Matrix
+081,mend,Inferring Genotype from a Pedigree
+082,mgap,Maximizing the Gap Symbols of an Optimal Alignment
+083,mrep,Identifying Maximal Repeats
+084,mult,Multiple Alignment
+085,pdpl,Creating a Restriction Map
+086,root,Counting Rooted Binary Trees
+087,sexl,Sex-Linked Inheritance
+088,sptd,Phylogeny Comparison with Split Distance
+089,wfmd,The Wright-Fisher Model of Genetic Drift
+090,alph,Alignment-Based Phylogeny
+091,asmq,Assessing Assembly Quality with N50 and N75
+092,cset,Fixing an Inconsistent Character Set
+093,ebin,Wright-Fisher&#39;s Expected Behavior
+094,foun,The Founder Effect and Genetic Drift
+095,gaff,Global Alignment with Scoring Matrix and Affine Gap Penalty
+096,grep,Genome Assembly with Perfect Coverage and Repeats
+097,oap,Overlap Alignment
+098,qrtd,Quartet Distance
+099,sims,Finding a Motif with Modifications
+100,smgb,Semiglobal Alignment
+101,ksim,Finding All Similar Motifs
+102,laff,Local Alignment with Affine Gap Penalty
+103,osym,Isolating Symbols in Alignments
+104,rsub,Identifying Reversing Substitutions
