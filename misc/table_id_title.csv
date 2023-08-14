@@ -9,7 +9,7 @@
 [x],008,subs,Finding a Motif in DNA
 [x],009,cons,Consensus and Profile
 [x],010,fibd,Mortal Fibonacci Rabbits
-[ ],011,grph,Overlap Graphs
+[x],011,grph,Overlap Graphs
 [ ],012,iev,Calculating Expected Offspring
 [ ],013,lcsm,Finding a Shared Motif
 [ ],014,lia,Independent Alleles
