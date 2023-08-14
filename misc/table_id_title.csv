@@ -7,7 +7,7 @@
 [x],006,iprb,Mendel&#39;s First Law
 [x],007,prot,Translating RNA into Protein
 [x],008,subs,Finding a Motif in DNA
-[ ],009,cons,Consensus and Profile
+[x],009,cons,Consensus and Profile
 [x],010,fibd,Mortal Fibonacci Rabbits
 [ ],011,grph,Overlap Graphs
 [ ],012,iev,Calculating Expected Offspring
